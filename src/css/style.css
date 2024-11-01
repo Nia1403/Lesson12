@@ -1,0 +1,158 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ul{
+	list-style: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+.continer{
+	max-width: 1920px;
+	width: 100%;
+    padding: 20px;
+	margin:0 auto;
+}
+
+
+
+.main{
+    display: grid;
+
+     /* schritt-1 bedeutet 4 columns Spaltel, jeweils 1fr*/
+    grid-template-columns: repeat(4, 1fr);
+
+     /* nimmt mindestens 200px und maximal so viel wie nötig */
+    grid-auto-rows: minmax(200px, auto);
+
+     /* schritt 2r*/
+     grid-template-areas: 
+     "aaa bbb bbb bbb"
+     "aaa bbb bbb bbb"
+     "ccc ddd eee fff"
+     "ggg hhh iii jjj";
+}
+
+
+.item-1{
+    grid-area: aaa;
+}
+.item-2{
+    grid-area: bbb;
+}
+.item-3{
+    grid-area: ccc;
+}
+
+.item-4{
+    grid-area: ddd;
+}
+
+.item-5{
+    grid-area: eee;
+}
+
+.item-6{
+    grid-area: fff;
+}
+
+.item-7{
+    grid-area: ggg;
+}
+
+.item-8{
+    grid-area: hhh;
+}
+
+.item-9{
+    grid-area: iii;
+}
+
+.item-10{
+    grid-area: jjj;
+}
+
+
+
+/* ab hier box Item-1 */
+
+.box .item-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #F8F8F8;
+    border-radius: 24px;
+    padding: 20px;
+}
+
+.form-row label{
+    padding: 5px;
+}
+
+
+/* ab hier box Item-2 */
+
+.bigPicClass{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.bigPicClass img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.bigPicClass .textParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+	top: 20%;
+	left: 50%;
+	width: 700px;
+	padding: 10px;
+	transform: translate(-50%, -50%);
+}
+
+
+.bigText{
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+
+.smallText{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.searchParent{
+    display: inline-block;
+    position: relative;
+}
+
+.searchParent p{
+    position: absolute;
+    top: 20px;
+    left: 27px;
+}
+
+
