@@ -82,29 +82,58 @@ img{
     grid-area: jjj;
 }
 
+header{
+    margin: 30px;
+}
 
+.headerClass{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section, header{
+    margin: 20px 100px;
+}
 
 /* ab hier box Item-1 */
 
 .box .item-1{
+    /* width: auto;
+    height: auto; */
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
+.checkbosbackground{
+    background-color: #F8F8F8;
+    border-radius: 24px;
+}
+
+
 .form-row{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #F8F8F8;
-    border-radius: 24px;
     padding: 20px;
 }
+
+
+input [type="checkbox"]{
+    accent-color: green;
+}
+
 
 .form-row label{
     padding: 5px;
 }
+
+.form-row h3{
+    padding-bottom: 10px;
+}
+
 
 
 /* ab hier box Item-2 */
