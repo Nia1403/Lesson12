@@ -52,6 +52,7 @@ img{
 }
 
 
+
 .item-1{
     grid-area: aaa;
 }
@@ -439,6 +440,156 @@ section, header{
 
 
 .item-10{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8F8F8;
+    border-radius: 24px;
+    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
+        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
+        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
+        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
+        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
+    box-shadow: 0px 4px 18px 0px #C2C2C24D;
+    box-sizing: border box;
+    position: relative;
+}
+
+
+
+
+/* SECOND PAGE Internal html*/
+
+
+
+
+.mainInt{
+    max-width: 1920px;
+    margin: 0 auto;
+    display: grid;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 20px;
+    width: 100%;
+     /* schritt-1 bedeutet 4 columns Spaltel, jeweils 1fr*/
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+
+
+     /* nimmt mindestens 200px und maximal so viel wie nötig */
+    grid-auto-rows: minmax(200px, auto);
+
+     /* schritt 2r*/
+     grid-template-areas: 
+     "aaa aaa bbb bbb"
+     "aaa aaa bbb bbb"
+     "aaa aaa bbb bbb"
+     "ccc ddd eee fff";
+}
+
+.itemInt-1{
+    grid-area: aaa;
+}
+
+.itemInt-2{
+    grid-area: bbb;
+}
+
+.itemInt-3{
+    grid-area: ccc;
+}
+
+.itemInt-4{
+    grid-area: ddd;
+}
+.itemInt-5{
+    grid-area: eee;
+}
+.itemInt-6{
+    grid-area: fff;
+}
+
+
+.itemInt-3{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8F8F8;
+    border-radius: 24px;
+    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
+        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
+        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
+        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
+        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
+    box-shadow: 0px 4px 18px 0px #C2C2C24D;
+    box-sizing: border box;
+    position: relative;
+}
+
+.itemInt-3{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8F8F8;
+    border-radius: 24px;
+    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
+        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
+        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
+        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
+        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
+    box-shadow: 0px 4px 18px 0px #C2C2C24D;
+    box-sizing: border box;
+    position: relative;
+}
+
+.itemInt-4{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8F8F8;
+    border-radius: 24px;
+    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
+        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
+        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
+        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
+        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
+    box-shadow: 0px 4px 18px 0px #C2C2C24D;
+    box-sizing: border box;
+    position: relative;
+}
+
+.itemInt-5{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8F8F8;
+    border-radius: 24px;
+    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
+        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
+        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
+        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
+        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
+    box-shadow: 0px 4px 18px 0px #C2C2C24D;
+    box-sizing: border box;
+    position: relative;
+}
+
+.itemInt-6{
     margin: auto;
     width: 100%;
     display: flex;
