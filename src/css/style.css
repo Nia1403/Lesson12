@@ -2,6 +2,7 @@
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
+    font-size: 100%;
 }
 
 a{
@@ -607,3 +608,97 @@ section, header{
     box-sizing: border box;
     position: relative;
 }
+
+
+
+.itemInt-2{
+    display: block;
+}
+
+
+.itemInt-2 .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eyeANDview{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.eye{
+    padding-right: 10px;
+}
+
+.greenVIP{
+    font-size: 12px;
+    padding: 7px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    background-color: #29B24E;
+}
+
+.posted{
+    font-size: 12px;
+    line-height: 23px;
+    color: #000000;
+    opacity: 60%;
+}
+
+.view{
+    font-size: 12px;
+    line-height: 23px;
+    color: #000000;
+    opacity: 60%;
+}
+
+.p2titel{
+    font-size: 22px;
+    line-height: 33px;
+    color: #000000;
+    opacity: 90%;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.titelCity{
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 60%;
+    padding-top: 10px;
+}
+
+.loremText{
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+    opacity: 80%;
+    padding: 20px;
+}
+
+
+.BadroomLis ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.BadroomLis ul li{
+    font-size: 14px;
+    line-height: 23px;
+    opacity: 80%;
+    color: #000000;
+}
+
