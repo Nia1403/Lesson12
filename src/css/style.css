@@ -220,7 +220,7 @@ section, header{
 
 /* ab hier artikels */
 
-.item-3{
+.item-3, .item-4, .item-5, .item-6, .item-7, .item-8, .item-9, .item-10{
     margin: auto;
     width: 100%;
     display: flex;
@@ -311,155 +311,6 @@ section, header{
 
 
 
-/* artikle 4 */
-
-.item-4{
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F8F8F8;
-    border-radius: 24px;
-    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
-        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
-        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
-        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
-        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
-    box-shadow: 0px 4px 18px 0px #C2C2C24D;
-    box-sizing: border box;
-    position: relative;
-}
-
-
-/* artikel 5 */
-
-.item-5{
-    margin: auto;
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F8F8F8;
-    border-radius: 24px;
-    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
-        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
-        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
-        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
-        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
-    box-shadow: 0px 4px 18px 0px #C2C2C24D;
-    box-sizing: border box;
-    position: relative;
-}
-
-
-
-/* artikel 6 */
-
-.item-6{
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F8F8F8;
-    border-radius: 24px;
-    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
-        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
-        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
-        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
-        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
-    box-shadow: 0px 4px 18px 0px #C2C2C24D;
-    box-sizing: border box;
-    position: relative;
-}
-
-
-
-.item-7{
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F8F8F8;
-    border-radius: 24px;
-    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
-        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
-        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
-        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
-        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
-    box-shadow: 0px 4px 18px 0px #C2C2C24D;
-    box-sizing: border box;
-    position: relative;
-}
-
-
-.item-8{
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F8F8F8;
-    border-radius: 24px;
-    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
-        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
-        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
-        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
-        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
-    box-shadow: 0px 4px 18px 0px #C2C2C24D;
-    box-sizing: border box;
-    position: relative;
-}
-
-
-.item-9{
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F8F8F8;
-    border-radius: 24px;
-    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
-        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
-        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
-        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
-        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
-    box-shadow: 0px 4px 18px 0px #C2C2C24D;
-    box-sizing: border box;
-    position: relative;
-}
-
-
-.item-10{
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F8F8F8;
-    border-radius: 24px;
-    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
-        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
-        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
-        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
-        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
-    box-shadow: 0px 4px 18px 0px #C2C2C24D;
-    box-sizing: border box;
-    position: relative;
-}
-
-
 
 
 /* SECOND PAGE Internal html*/
@@ -514,83 +365,7 @@ section, header{
 }
 
 
-.itemInt-3{
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F8F8F8;
-    border-radius: 24px;
-    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
-        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
-        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
-        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
-        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
-    box-shadow: 0px 4px 18px 0px #C2C2C24D;
-    box-sizing: border box;
-    position: relative;
-}
-
-.itemInt-3{
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F8F8F8;
-    border-radius: 24px;
-    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
-        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
-        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
-        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
-        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
-    box-shadow: 0px 4px 18px 0px #C2C2C24D;
-    box-sizing: border box;
-    position: relative;
-}
-
-.itemInt-4{
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F8F8F8;
-    border-radius: 24px;
-    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
-        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
-        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
-        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
-        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
-    box-shadow: 0px 4px 18px 0px #C2C2C24D;
-    box-sizing: border box;
-    position: relative;
-}
-
-.itemInt-5{
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F8F8F8;
-    border-radius: 24px;
-    /*  0px (x) sorgt dafür, dass der Schatten horizontal direkt hinter dem Element liegt, ohne seitliche Verschiebung.
-        4px (y) bewirkt, dass der Schatten 4 Pixel nach unten verschoben wird.
-        18px (Blur) sorgt für eine weiche und stark diffuse Schattierung.
-        0px (Spread) bedeutet, dass die Größe des Schattens nicht über das eigentliche Element hinaus ausgedehnt wird.
-        #C2C2C24D (Farbe) definiert die halbtransparente Farbe des Schattens.*/
-    box-shadow: 0px 4px 18px 0px #C2C2C24D;
-    box-sizing: border box;
-    position: relative;
-}
-
-.itemInt-6{
+.itemInt-3, .itemInt-4, .itemInt-5, .itemInt-6{
     margin: auto;
     width: 100%;
     display: flex;
@@ -615,6 +390,7 @@ section, header{
     margin: auto;
     padding: 10px 10px;
     width: 100%;
+    height: 100%;
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
