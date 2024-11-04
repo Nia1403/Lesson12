@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'poppinsnormal';
+    src: url('../fonts/Poppins-Thin.woff') format('woff'), /* Super Modern Browsers */
+        url('../fonts/Poppins-Thin.woff2')format(woff2); /* Pretty Modern Browsers */  
+}
