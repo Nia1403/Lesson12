@@ -16,11 +16,12 @@ ul{
 
 img{
 	max-width: 100%;
+    height: auto;
 }
 
 .container{
-
-	max-width: 1920px;
+	max-width: 100vm;
+    overflow: hidden;
 	width: 100%;
     /* padding: 20px; */
 	margin: 0 auto;
@@ -583,4 +584,87 @@ section, header{
 .BigLine{
     /* padding: 20px; */
     box-sizing: border-box;
+}
+
+
+
+@media (width < 768px){
+    /* .wrapper{
+        display: flex;
+        margin: 0 auto;
+        padding: 0 auto;
+        justify-content: center;
+
+    } */
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: auto;
+        box-sizing: border-box;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .headerLi, .sellInGreen{
+        display: none;
+    }
+
+    .logoPhone{
+        margin-right: 80%;
+    }
+    
+    .item-2{
+        order: -1;  /* Setzt diese Box an den Anfang in der mobilen Ansicht */
+    }
+
+    .p2headers{
+        display: none;
+    }
+
+
+    .bigText {
+        font-size: 1rem; /* Verkleinert die Schriftgröße von h1 auf mobilen Geräten */
+    }
+
+    .searchParent{
+        width: 30%;
+    }
+
+    .searchParent p{
+        font-size: 0.5rem;
+        top: 30%;
+        left: 10%;
+    }
+
+
+    .bigPicClass .textParent {
+        top: 38%; /* Optional: Anpassung der Position in der mobilen Ansicht */
+        left: 48%; /* Optional: Anpassung der Position in der mobilen Ansicht */
+    }
+
+    .smallText {
+        font-size: 0.5rem; /* Verkleinert die Schriftgröße von h5 auf mobilen Geräten */
+    }
+
+
+    footer .PhonePicHere {
+        height: 200px;
+        background-image: url('../images/phonepic.png');
+        /* display: block;
+        background-size: cover;
+        background-position: center; */
+        background-repeat: no-repeat;
+    }
+
+    .itemInt-3, .itemInt-4, .itemInt-5{
+        display: none;
+    }
+
+
 }
