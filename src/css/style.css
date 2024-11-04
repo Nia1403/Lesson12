@@ -653,6 +653,22 @@ section, header{
     }
 
 
+    .logoPhone{
+        position: relative;
+    }
+
+
+    header .PhoneLupeHere{
+        background-image: url('../images/loop.png');
+        width: 27px;
+        height: 20px;
+        border-radius: 24px;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 25px 0px #F8F8F8;
+        /* margin-left: 90%; */
+    }
+
+
     footer .PhonePicHere {
         height: 200px;
         background-image: url('../images/phonepic.png');
@@ -661,6 +677,8 @@ section, header{
         background-position: center; */
         background-repeat: no-repeat;
     }
+
+
 
     .itemInt-3, .itemInt-4, .itemInt-5{
         display: none;
